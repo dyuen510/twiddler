@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Twiddler</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="title">Twiddler
+            <img src="twiddlerLogo.png">
+        </h1>
+    </header>
+    <main>
+        <form class="userNameForm">
+            <label for="username">Username</label><br>
+            <input class="u-full-width" type="text" id="name" name="name" placeholder="Enter your username"><br>
+            <label for="content">Twid</label><br>
+            <textarea class="u-full-width" type="text" id="message" name="message"
+                placeholder="Enter your Twid!"></textarea>
+            <br><button>Submit</button>
+            <section id="new">
+                <div class="post">
+                    <input type="button" value="NewTwids">
+                </div>
+            </section>
+            </div>
+        </form>
+    </main>
+    <section id="tweets">
+        <div class="container">
+            <div class='twids'>
+                <section class='main'>
+                </section>
+            </div>
+            <div style="text-align:center">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

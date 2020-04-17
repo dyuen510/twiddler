@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+    font-size: 65px;
+  }
+  
+  img {
+    max-width:100px;
+    height:70px;
+    padding-top: 0%;
+    overflow: hidden;
+    border-radius: 50px;
+    position: relative;
+    margin-right: 4px;
+  
+  
+  }
+  
+  .userNameForm {
+    width: 350px;
+    margin: 0 auto;
+  }
+  
+  .u-full-width {
+    width: 350px;
+  }
+  
+  .search {
+    width: 25%;
+  
+  }
+  
+  body{
+    background: #91d2aa;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .main {
+    text-align: center;
+  }
+  
+  .newButton {
+    margin-bottom: 400px;
+    padding: 10px 20px 11px;
+    width: 130%
+  }
+  
+  
